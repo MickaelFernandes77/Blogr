@@ -1,10 +1,14 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* inicio header */
-header{
-    background-color: #ff525d; 
+header {
+    background-color: #ff525d;
     /* background-color: #fc5762;  */
-    background-image: url('../images/bg-pattern-intro-desktop.svg');  
+    background-image: url('../images/bg-pattern-intro-desktop.svg');
     height: 600px;
     background-repeat: no-repeat;
     background-size: 1800px;
@@ -12,48 +16,50 @@ header{
     border-bottom-left-radius: 90px;
 }
 
-.logo{
+.logo {
     margin-left: 12%;
     margin-top: 1%;
 }
+
 /* nav dos primeiros 3 botoes */
-.primeiro-nav{
+.primeiro-nav {
     font-family: 'Ubuntu', serif;
     margin-left: 2%;
 }
+
 /* nav do btn de login e cadastro */
-.segundo-nav{
+.segundo-nav {
     font-family: 'Overpass', sans-serif;
     font-weight: bold;
-    height: 80px; 
+    height: 80px;
     width: 20%;
     margin-top: 28px;
     margin-right: 10%;
 }
 
 /* botoes do menu drop down */
-.drops > a{
+.drops>a {
     color: #fff;
     margin-right: 25px;
     text-decoration: none;
 }
 
-.drops > a:hover{
+.drops>a:hover {
     color: #000;
     text-decoration: none;
 }
 
 /* btn hamburguer */
-span > i{
+span>i {
     color: #fff;
 }
 
-.segundo-nav > #btn-login > a{
+.segundo-nav>#btn-login>a {
     color: #fff;
     text-decoration: none;
 }
 
-.segundo-nav > #btn-cadastro{
+.segundo-nav>#btn-cadastro {
     background-color: #fff;
     color: #ff525d;
     margin-left: 20%;
@@ -64,39 +70,39 @@ span > i{
     border-radius: 15px;
 }
 
-.segundo-nav > #btn-cadastro > a{
+.segundo-nav>#btn-cadastro>a {
     color: #ff525d;
     text-decoration: none;
     width: 100%;
 }
 
-.segundo-nav > #btn-cadastro > a:hover{
+.segundo-nav>#btn-cadastro>a:hover {
     color: #000;
     text-decoration: none;
     width: 100%;
 }
 
 /* textos header */
-.title, .text{
+.title, .text {
     color: #fff;
     font-family: 'Overpass', sans-serif;
     text-align: center;
 }
 
-.title{
+.title {
     font-weight: 480;
     letter-spacing: 1px;
     font-size: 66px;
     margin-top: 8%;
 }
 
-.text{
+.text {
     font-size: 20px;
     margin-top: 2%;
 }
 
 /* botões header */
-.btn-start, .btn-learn{
+.btn-start, .btn-learn {
     text-align: center;
     border-radius: 20px;
     width: 130px;
@@ -105,821 +111,176 @@ span > i{
     margin-top: 2%;
 }
 
-.btn-start{
+.btn-start {
     background-color: #fff;
     color: #ff525d;
     border: none;
     margin-right: 4%;
 }
 
-.btn-start:hover{
+.btn-start:hover {
     background-color: transparent;
     color: #fff;
     border: solid 1px #fff;
     transition: 0.5s;
 }
 
-.btn-learn{
+.btn-learn {
     background-color: transparent;
     color: #fff;
     border: solid 1px #fff;
 }
 
-.btn-learn:hover{
+.btn-learn:hover {
     background-color: #fff;
     color: #fc5762;
     border: solid 1px #fff;
     transition: 0.5s;
 }
+
 /* fim header */
 
 /* inicio home */
-.home{
+.home {
     height: 100%;
 }
 
-.title2{
-    color:#000;
-    margin-top: 6%; 
-    text-align:center; 
+.title2 {
+    color: #000;
+    margin-top: 6%;
+    text-align: center;
 }
 
-.line2home{
+.line2home {
     width: 100%;
     display: flex;
     justify-content: center;
     font-family: 'Overpass', sans-serif;
 }
 
-.subtitleImgContainer{
+.subtitleImgContainer {
     display: flex;
 }
 
-.subtitlesContainer{
+.subtitlesContainer {
     margin-top: 2%;
     margin-left: 20%;
 }
 
-.fSubtitles{
+.fSubtitles {
     color: #1f3f5b;
     font-weight: bold;
     text-align: left;
 }
 
-.text2{
+.text2 {
     text-align: left;
     width: 60%;
 }
 
+.imgContainer {
+    margin-top: -80px;
+}
+
 /* img home */
-.img{
+.img {
     width: 580px;
 }
+
 /* fim home */
 
-
-.section2{
-    width: 100%; 
-    height: 500px; 
-    background-color:#414575; 
-    border-bottom-left-radius: 90px; 
+/* inicio section 2 */
+.section2 {
+    width: 100%;
+    height: 500px;
+    background-color: #414575;
+    border-bottom-left-radius: 90px;
     border-top-right-radius: 90px;
 }
 
-.imgTextContainer{
+.imgTextContainer {
     display: flex;
     justify-content: center;
 }
 
-.imgPhone{
+.imgPhone {
     margin-top: 15px;
-    margin-left: 10%;
+    margin-left: 0;
     position: absolute;
     z-index: 0;
 }
 
-.titleTextContainer{
+.titleTextContainer {
     color: #fff;
     width: 100%;
+    text-align: left;
 }
 
-.title3, .text3{
+.title3, .text3 {
     font-family: 'Overpass', sans-serif;
     padding-left: 40%;
 }
 
-.title3{
+.title3 {
     font-size: 25px;
     margin-top: 7%;
     margin-bottom: 3%;
     font-weight: 600;
 }
 
-.text3{
+.text3 {
     font-size: 18px;
     width: 80%;
 }
 
+/* fim section 2 */
 
-@media(min-width: 320px) and (max-width:374px) {
-
-    header{
-        background-color: #ff525d; 
-        height: 710px;
-        background-position: center;
-    }
-
-    /* menus */
-    /* nav logo e menus drop downs */
-    .primeiro-nav{
-        background-color: #fff;
-        color: #000;
-        display: flex;
-        align-items: center;
-        padding-top: 20px;
-    }
-
-    /* botoes do menu drop down */
-
-    .drops{
-        padding-top: 2px;
-    }
-
-    .drops > a{
-        color: #000;
-        margin-right: 0px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    /* nav do btn de login e cadastro */
-    .segundo-nav{
-        margin-right: 0;
-        margin-top: 0;
-        background-color: #fff;
-        width: 98%;
-        display: flex;
-        align-items: center;
-    }
-
-    .segundo-nav > #btn-login > a{
-        color: #000;
-        text-decoration: none;
-    }
-
-    .segundo-nav > #btn-cadastro{
-        margin-left: 0;
-        background-color: #ff525d;
-        margin-top: 10px;
-    }
-
-    .segundo-nav > #btn-cadastro > a{
-        margin-left: 0;
-        color: #fff;
-    }
-    /* fim menus */
-
-    /* coluna texto e titulo */
-    .colTitleText{
-        margin-top: 25%;
-        height: 400px;
-    }
-
-    .title{
-        font-size: 35px;
-        margin-top: 15%;
-    }
-    
-    .text{
-        font-size: 18px;
-        margin-top: 2%;
-    }
-    
-    /* botões header */
-    .btn-start, .btn-learn{
-        text-align: center;
-        border-radius: 20px;
-        width: 130px;
-        height: 40px;
-        font-weight: 600;
-        margin-top: 2%;
-    }
-    
-    .btn-start{
-        background-color: transparent;
-        color: #fff;
-        border: solid 1px #fff;
-        margin-right: 4%;
-    }
-
-    .btn-learn:hover{
-        background-color: transparent;
-        color: #fff;
-        border: solid 1px #fff;
-    }
-    /* fim coluna texto e titulo */
-
-    /* inicio home */
-    .home{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .line2home{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Overpass', sans-serif;
-    }
-
-    .subtitleImgContainer{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .fSubtitles{
-        text-align: center;
-        margin-top: 3%;
-        margin-right: 9%;
-        
-    }
-
-    .title2{
-        margin-top: 23%;
-    }
-    
-    .text2{
-        text-align: center;
-        width: 100%;
-        padding-right: 9%;
-    }
-
-    .img{
-        width: 300px;
-        margin-top: 18%;
-        margin-left: 10%; 
-    }
-
-    
-    .section2{
-        width: 100%; 
-        height: 800px; 
-        background-color:#414575; 
-        border-bottom-left-radius: 90px; 
-        border-top-right-radius: 90px;
-        margin-top: 25%;
-    }
-
-    .imgTextContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .imgPhone{
-        margin-top: -100px;
-        margin-left: 10%;
-        position: absolute;
-        z-index: 0;
-        width: 250px;
-    }
-
-    .titleTextContainer{
-        color: #fff;
-        width: 100%;
-        margin-top: 40%;
-        text-align: center;
-        margin-top: 45%;
-    }
-
-    .title3, .text3{
-        font-family: 'Overpass', sans-serif;
-        
-        padding-left: 0;
-    }
-
-    .title3{
-        font-size: 25px;
-        margin-top: 7%;
-        margin-bottom: 3%;
-        font-weight: 600;
-    }
-
-    .text3{
-        font-size: 18px;
-        width: 100%;
-    }
+/* inicio section 3 */
+.section3 {
+    width: 100%;
+    height: 880px;
+    margin-top: 5%;
 }
 
-@media(min-width:375px) and (max-width:425px) {
-    header{
-        background-color: #ff525d; 
-        height: 690px;
-        background-position: center;
-    }
-
-    /* menus */
-    /* nav logo e menus drop downs */
-    .primeiro-nav{
-        background-color: #fff;
-        color: #000;
-        display: flex;
-        align-items: center;
-        padding-top: 20px;
-    }
-
-    /* botoes do menu drop down */
-
-    .drops{
-        padding-top: 2px;
-    }
-
-    .drops > a{
-        color: #000;
-        margin-right: 0px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    /* nav do btn de login e cadastro */
-    .segundo-nav{
-        margin-right: 0;
-        margin-top: 0;
-        background-color: #fff;
-        width: 98%;
-        display: flex;
-        align-items: center;
-    }
-
-    .segundo-nav > #btn-login > a{
-        color: #000;
-        text-decoration: none;
-    }
-
-    .segundo-nav > #btn-cadastro{
-        margin-left: 0;
-        background-color: #ff525d;
-        margin-top: 10px;
-    }
-
-    .segundo-nav > #btn-cadastro > a{
-        margin-left: 0;
-        color: #fff;
-    }
-    /* fim menus */
-
-    /* coluna texto e titulo */
-    .colTitleText{
-        margin-top: 25%;
-        height: 400px;
-    }
-
-    .title{
-        font-size: 35px;
-        margin-top: 15%;
-    }
-    
-    .text{
-        font-size: 20px;
-        margin-top: 6.5%;
-    }
-    
-    /* botões header */
-    .btn-start, .btn-learn{
-        width: 150px;
-        height: 40px;
-        margin-top: 2%;
-    }
-    
-    .btn-start{
-        background-color: transparent;
-        color: #fff;
-        border: solid 1px #fff;
-        margin-right: 4%;
-    }
-
-    .btn-learn:hover{
-        background-color: transparent;
-        color: #fff;
-        border: solid 1px #fff;
-    }
-    /* fim coluna texto e titulo */
-
-    /* inicio home */
-    .home{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .line2home{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Overpass', sans-serif;
-    }
-
-    .subtitleImgContainer{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .fSubtitles{
-        text-align: center;
-        margin-top: 3%;
-        margin-right: 15%;
-    }
-
-    .title2{
-        margin-top: 23%; 
-    }
-    
-    .text2{
-        text-align: center;
-        width: 100%;
-        padding-right: 12%;
-    }
-
-    .img{
-        width: 330px;
-        margin-top: 23%;
-        margin-left: 15%; 
-    }
+.imgTextContainer2 {
+    display: flex;
+    justify-content: center;
 }
 
-@media (min-width: 426px) and (max-width: 575.99px) {
-    header{
-        background-color: #ff525d; 
-        height: 690px;
-        background-position: center;
-    }
-
-    /* menus */
-    /* nav logo e menus drop downs */
-    .primeiro-nav{
-        background-color: #fff;
-        color: #000;
-        display: flex;
-        align-items: center;
-        padding-top: 20px;
-    }
-
-    /* botoes do menu drop down */
-
-    .drops{
-        padding-top: 2px;
-    }
-
-    .drops > a{
-        color: #000;
-        margin-right: 0px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    /* nav do btn de login e cadastro */
-    .segundo-nav{
-        margin-right: 0;
-        margin-top: 0;
-        background-color: #fff;
-        width: 98%;
-        display: flex;
-        align-items: center;
-    }
-
-    .segundo-nav > #btn-login{
-        padding-top: 11px;
-    }
-
-    .segundo-nav > #btn-login > a{
-        color: #000;
-        text-decoration: none;
-    }
-
-    .segundo-nav > #btn-cadastro{
-        margin-left: 0;
-        background-color: #ff525d;
-        margin-top: 10px;
-    }
-
-    .segundo-nav > #btn-cadastro > a{
-        margin-left: 0;
-        color: #fff;
-    }
-    /* fim menus */
-
-    /* coluna texto e titulo */
-    .colTitleText{
-        margin-top: 13%;
-        height: 400px;
-    }
-
-    .title{
-        font-size: 40px;
-        margin-top: 15%;
-    }
-    
-    .text{
-        font-size: 20px;
-        margin-top: 2%;
-    }
-    
-    /* botões header */
-    .btn-start, .btn-learn{
-        text-align: center;
-        border-radius: 20px;
-        width: 150px;
-        height: 40px;
-        font-weight: 600;
-        margin-top: 2%;
-    }
-    
-    .btn-start{
-        background-color: transparent;
-        color: #fff;
-        border: solid 1px #fff;
-        margin-right: 4%;
-    }
-
-    .btn-learn:hover{
-        background-color: transparent;
-        color: #fff;
-        border: solid 1px #fff;
-    }
-    /* fim coluna texto e titulo */
-
-    /* inicio home */
-    .home{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .line2home{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Overpass', sans-serif;
-    }
-
-    .subtitleImgContainer{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .fSubtitles{
-        text-align: center;
-        margin-top: 3%;
-        margin-right: 17%;
-    }
-
-    .title2{
-        margin-top: 23%; 
-    }
-    
-    .text2{
-        text-align: center;
-        width: 100%;
-        padding-right: 17%;
-    }
-
-    .img{
-        width: 380px;
-        margin-top: 30%;
-        margin-left: 8%;
-
-    }
+.notebookContainer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
 }
 
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-    header{
-        background-color: #ff525d; 
-        background-position: center;
-    }
-
-    .logo{
-        margin-left: 2%;
-        margin-top: 1%;
-    }
-
-    /* botoes dropdown */
-    .drops{
-        padding-top: 2px;
-        padding-right: 3px;
-    }
-
-    /* nav do btn de login e cadastro */
-    .segundo-nav{
-        font-family: 'Overpass', sans-serif;
-        font-weight: bold;
-        height: 80px; 
-        width: 40%;
-        padding-top: 13px;
-        margin-right: 0;
-    }
-
-    .segundo-nav > #btn-cadastro{
-        margin-left: 15%;
-        padding-top: 3px;
-        margin-top: -2px;
-    }
-
-    /* inicio home */
-    .home{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .line2home{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Overpass', sans-serif;
-    }
-
-    .subtitleImgContainer{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .title{
-        font-size: 50px;
-        margin-top: 15%;
-    }
-
-    .title2{
-        margin-top: 18%;
-        font-size: 33px;
-    }
-
-    .fSubtitles{
-        text-align: center;
-        margin-top: 7%;
-        margin-right: 17%;
-    }
-    
-    .text2{
-        text-align: center;
-        width: 100%;
-        padding-right: 20%;
-    }
-
-    /* botões header */
-    .btn-start, .btn-learn{
-        width: 170px;
-        margin-top: 2%;
-    }
-
-    .img{
-        width: 390px;
-        margin-top: 30%;
-        margin-left: 3%;
-
-    }
+.imgNotebook {
+    width: 950px;
+    margin-right: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 480px;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    header{
-        background-color: #ff525d; 
-        background-position: center;
-    }
-
-    /* nav do btn de login e cadastro */
-    .segundo-nav{
-        font-family: 'Overpass', sans-serif;
-        font-weight: bold;
-        height: 80px; 
-        width: 40%;
-        padding-top: 13px;
-        margin-right: 0;
-    }
-
-    .segundo-nav > #btn-cadastro{
-        margin-left: 15%;
-        padding-top: 3px;
-        margin-top: -2px;
-    }
-
-    /* inicio home */
-    .home{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .line2home{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Overpass', sans-serif;
-    }
-
-    .title{
-        font-size: 53px;
-        margin-top: 15%;
-    }
-
-    .text{
-        font-size: 23px;
-        margin-top: 2%;
-    }
-
-    .title2{
-        margin-top: 8%;
-        font-size: 33px;
-    }
-
-    .fSubtitles{
-        text-align: left;
-        margin-top: 10%;
-        margin-right: 17%;
-    }
-    
-    .text2{
-        text-align: left;
-        width: 100%;
-        padding-right: 0;
-    }
-
-    /* botões header */
-    .btn-start, .btn-learn{
-        width: 210px;
-        margin-top: 2%;
-    }
-
-    .img{
-        width: 390px;
-        margin-top: 30%;
-        margin-left: 3%;
-
-    }
+.titleTextContainer2 {
+    margin-top: 10%;
+    text-align: left;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    /* inicio home */
-    .home{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .line2home{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Overpass', sans-serif;
-    }
-
-    .title{
-        font-size: 53px;
-        margin-top: 15%;
-    }
-
-    .text{
-        font-size: 23px;
-        margin-top: 2%;
-    }
-
-    .title2{
-        margin-top: 8%;
-        font-size: 33px;
-    }
-
-    .fSubtitles{
-        text-align: left;
-        margin-top: 10%;
-        margin-right: 17%;
-    }
-    
-    .text2{
-        text-align: left;
-        width: 100%;
-        padding-right: 0;
-    }
-
-    /* botões header */
-    .btn-start, .btn-learn{
-        width: 210px;
-        margin-top: 2%;
-    }
-
-    .img{
-        width: 350px;
-        margin-top: 30%;
-        margin-left: 3%;
-    }
+.title4, .text4 {
+    margin-left: 45%;
+    font-family: 'Overpass', sans-serif;
 }
 
-@media (min-width: 1200px) {
-    .img{
-        width: 550px;
-        margin-top: 10%;
-        margin-left: 0;
-    }
+.title4 {
+    color: #414575;
+    font-weight: 300;
+}
+
+.text4 {
+    width: 50%;
+    font-size: 16px;
+    color: #000;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
