@@ -150,6 +150,46 @@
         position: static;
         width: 100%;
     }
+
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fLogoContainer {
+        text-align: center;
+    }
+
+    /* logo footer */
+    .flogo {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .footerTitle {
+        text-align: center;
+    }
+
+    .fListContainer {
+        text-align: center;
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .fListItem {
+        color: rgb(201, 194, 194);
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
 }
 
 /* inicio dos breakpoints */
@@ -406,6 +446,50 @@
         margin-top: 2%;
         margin-bottom: 2%;
     }
+
+    /* footer */
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+        margin-top: 30%;
+    }
+
+    .fRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fLogoContainer {
+        text-align: center;
+    }
+
+    /* logo footer */
+    .flogo {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .footerTitle {
+        text-align: center;
+    }
+
+    .fListContainer {
+        text-align: center;
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .fListItem {
+        color: rgb(201, 194, 194);
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
 }
 
 @media(min-width:375px) and (max-width:425px) {
@@ -508,6 +592,13 @@
         margin-top: 2%;
         margin-bottom: 2%;
     }
+
+
+    /* footer */
+    footer {
+        height: 670px;
+        margin-top: 30%;
+    }
 }
 
 @media(min-width: 426px) and (max-width: 486px) {
@@ -586,8 +677,6 @@
     /* fim section 2 */
 
     /*section 3 */
-
-
     .imgNotebook {
         width: 360px;
         margin-right: 100px;
@@ -616,8 +705,13 @@
         margin-top: 2%;
         margin-bottom: 2%;
     }
-}
 
+    /* footer */
+    footer {
+        height: 690px;
+        margin-top: 30%;
+    }
+}
 
 @media(min-width: 487px) and (max-width: 550px) {
 
@@ -718,6 +812,12 @@
         font-size: 16px;
         margin-top: 2%;
         margin-bottom: 2%;
+    }
+
+    /* footer */
+    footer {
+        height: 710px;
+        margin-top: 30%;
     }
 }
 
@@ -846,6 +946,12 @@
         font-size: 16px;
         margin-top: 2%;
         margin-bottom: 2%;
+    }
+
+    /* footer */
+    footer {
+        height: 710px;
+        margin-top: 30%;
     }
 }
 
@@ -1040,6 +1146,49 @@
         font-size: 16px;
         margin-top: 2%;
         margin-bottom: 2%;
+    }
+
+    /* footer */
+    /* footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+        margin-top: 7%;
+    }
+
+    .fRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fLogoContainer {
+        text-align: center;
+    }
+
+    /* logo footer */
+    .flogo {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .footerTitle {
+        text-align: center;
+    }
+
+    .fListContainer {
+        text-align: center;
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .fListItem {
+        color: rgb(201, 194, 194);
+        text-decoration: none;
+        margin-bottom: 10px;
     }
 }
 

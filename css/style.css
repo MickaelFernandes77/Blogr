@@ -284,3 +284,39 @@ span>i {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+/* footer */
+
+footer{
+    height: 300px; background-color: #2e2c2c;
+    border-top-right-radius: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+/* logo footer */
+.flogo{
+    margin-top: 10%;
+}
+
+.fListContainer{
+    margin-top: 3%;
+    font-family: 'Overpass', sans-serif;
+}
+
+.footerTitle{
+    color: #fff;
+    font-size: 18px;
+}
+
+.fListItem{
+    color: rgb(201, 194, 194);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.fListItem:hover{
+    color: #fff;
+    transition: 0.35s;
+    text-decoration: none;
+}
